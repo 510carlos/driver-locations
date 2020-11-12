@@ -1,0 +1,8 @@
+Questions:
+
+1. We need to build a dashboard.
+2. it will display driver location and the next destination of the driver.
+3. use google maps to show the location of 5 drivers
+4. click on pin to pop up modal with information
+    a. drivers name, # of deliveries done, # deliveries remaining, 
+        next destination.
