@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {GoogleApiWrapper} from '../map';
+import {MapContainer} from '../map';
 
 import { Layout, Menu, Breadcrumb } from 'antd';
 import {
@@ -31,7 +31,7 @@ const Template = () => {
             <Breadcrumb.Item>Map of Drivers</Breadcrumb.Item>
           </Breadcrumb>
           <div className="site-layout-background" style={{ minHeight: 360, backgroundColor: 'white' }}>
-            <GoogleApiWrapper />
+            <MapContainer />
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>Made by: Carlos Mendoza</Footer>

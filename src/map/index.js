@@ -1,3 +1,3 @@
-import GoogleApiWrapper from './MapContainer'
+import MapContainer from './MapContainer';
 
-export { GoogleApiWrapper };
+export { MapContainer };
