@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Getting Started with Driver Location App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is a small example app where we are going to build a google maps showing the driver locations. Another, feature is that when clicked on the driver we are to pop up a modal with the driver infomation.
+
+## Bring up the application inside the container
+
+This application is built with docker. I added docker-compose to easily build the containers. 
+In order to build the app with a quick one line command. Use the command below. If you want to build the image then 
+later run the image in two separate commands you may use the docker commands.
+
+`docker-compose up`
+
+## Build the docker image
+
+If you want to tag and build the image you may run the following command. If you already ran `docker-compose up`
+you do not need to run the two commands below.
+
+`docker build -t 510carlos/driver-locations:v1 .`
+
+## Run the docker image 
+
+Now that the docker image is built we can now run the image.
+
+`docker run -d -p 8080:8080 510carlos/driver-locations:v1`
 
 ## Available Scripts
 
